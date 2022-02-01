@@ -1,6 +1,6 @@
 # Lab 2: Closed Loop Controller Test System
 
-This lab utilizes a motor and encoder to create a clossed loop controller. 
+This lab utilizes a motor and encoder to create a closed loop controller. A serial connection is used to initiate a step response test after any character and return are entered, return the data, then plot the data as seen below.
 
 ---
 
@@ -25,6 +25,6 @@ This gain leads to an increase in overshoot over kP = 0.05.
 ![NonIdealGainResponse2](/docs/kP_03.png)
 
 This is the step response obtained when using a gain of kP = 0.03.
-The time to reach the final position is much longer than with gaine kP = 0.05.
+The time to reach the final position is longer than with gain kP = 0.05 and undershoots.
 
 ---
